@@ -26,4 +26,4 @@ jobs:
             -v ${{ github.workspace }}:/app \
             -w /app \
             semantic-release \
-            /bin/sh -c "git checkout master && semantic-release"
+            /bin/sh -c "git checkout main && GH_TOKEN=${GH_TOKEN} semantic-release"

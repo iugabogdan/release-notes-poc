@@ -18,3 +18,6 @@ jobs:
 
       - name: Run Docker container
         run: make run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_TLS_REJECT_UNAUTHORIZED: 0

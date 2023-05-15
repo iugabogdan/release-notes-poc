@@ -22,7 +22,7 @@ jobs:
           GROUP_ID=$(id -g)
           docker run \
             --user $USER_ID:$GROUP_ID \
-            -e GH_TOKEN=${{ secrets.GH_TOKEN }} \
+            -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
             -v ${{ github.workspace }}:/app \
             -w /app \
             semantic-release \
@@ -34,8 +34,8 @@ jobs:
           GROUP_ID=$(id -g)
           docker run \
             --user $USER_ID:$GROUP_ID \
-            -e GH_TOKEN=${{ secrets.GH_TOKEN }} \
+            -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
             -v ${{ github.workspace }}:/app \
             -w /app \
             semantic-release \
-            /bin/sh -c "git checkout master && GH_TOKEN=${GH_TOKEN} semantic-release"
+            /bin/sh -c "git checkout master && GH_TOKEN=${GITHUB_TOKEN} semantic-release"

@@ -16,6 +16,18 @@ jobs:
       - name: Build Docker image
         run: docker build -t semantic-release .
 
+      - name: Check GH_TOKEN
+        run: |
+          USER_ID=$(id -u)
+          GROUP_ID=$(id -g)
+          docker run \
+            --user $USER_ID:$GROUP_ID \
+            -e GH_TOKEN=${{ secrets.GH_TOKEN }} \
+            -v ${{ github.workspace }}:/app \
+            -w /app \
+            semantic-release \
+            /bin/sh -c "echo GH_TOKEN is set: ${GH_TOKEN:+yes}"
+
       - name: Run semantic-release
         run: |
           USER_ID=$(id -u)

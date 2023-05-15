@@ -26,7 +26,7 @@ jobs:
             -v ${{ github.workspace }}:/app \
             -w /app \
             semantic-release \
-            /bin/sh -c "echo GH_TOKEN is set: ${GH_TOKEN:+yes}"
+            /bin/sh -c "echo GITHUB_TOKEN is set: ${GITHUB_TOKEN:+yes}"
 
       - name: Run semantic-release
         run: |
@@ -38,4 +38,4 @@ jobs:
             -v ${{ github.workspace }}:/app \
             -w /app \
             semantic-release \
-            /bin/sh -c "git checkout master && GH_TOKEN=${GITHUB_TOKEN} semantic-release"
+            /bin/sh -c "git checkout master && GITHUB_TOKEN=${GITHUB_TOKEN} semantic-release"

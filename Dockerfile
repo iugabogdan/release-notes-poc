@@ -14,4 +14,4 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-CMD ["semantic-release", "--dry-run"]
+CMD ["semantic-release"]

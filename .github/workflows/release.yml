@@ -13,10 +13,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Build
-        run: make build
+      - name: Build Docker image
+        run: docker build -t semantic-release .
 
-      - name: Run Docker container
-        run: make run
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Run semantic-release
+        run: |
+          docker run \
+            -e GH_TOKEN=${{ secrets.GH_TOKEN }} \
+            -v ${{ github.workspace }}:/app \
+            semantic-release

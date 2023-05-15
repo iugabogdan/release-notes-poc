@@ -1,5 +1,8 @@
 FROM node:16-slim
 
+ENV GH_TOKEN=${GH_TOKEN}
+ENV npm_config_cache=/tmp/.npm
+
 RUN apt-get update && apt-get install -y git
 RUN npm install -g semantic-release@19.0.5 \
     @semantic-release/commit-analyzer@9.0.2 \

@@ -22,6 +22,6 @@ jobs:
             -v ${{ github.workspace }}:/app \
             -w /app \
             semantic-release \
-            /bin/sh -c "git checkout main && npx semantic-release"
+            /bin/sh -c "git checkout master && npx semantic-release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

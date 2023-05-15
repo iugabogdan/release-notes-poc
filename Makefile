@@ -1,7 +1,7 @@
 IMAGE_NAME = my-semantic-release
 
 build:
-	@docker build -t $(IMAGE_NAME) .
+	@docker build --build-arg GH_TOKEN=${{ secrets.GH_TOKEN }} -t $(IMAGE_NAME) .
 
 run:
 	@docker run $(IMAGE_NAME)

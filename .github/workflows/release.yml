@@ -1,4 +1,4 @@
-name: release
+name: Run Docker container
 
 on:
   push:
@@ -6,16 +6,18 @@ on:
       - master
 
 jobs:
-  semantic-release:
-    runs-on: ubuntu
-    name: Release
+  build:
+    runs-on: ubuntu-latest
+
     steps:
-      - name: checkout
+      - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-          persist-credentials: false
-      - run: make run
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_TLS_REJECT_UNAUTHORIZED: 0
+
+      - name: Set up Docker
+        uses: actions/setup-docker@v1
+
+      - name: Build
+        run: make build
+
+      - name: Run Docker container
+        run: make run

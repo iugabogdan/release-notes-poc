@@ -10,7 +10,7 @@ RUN npm install -g semantic-release \
     @semantic-release/github \
     @semantic-release/git
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
 COPY . .
 

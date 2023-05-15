@@ -20,6 +20,6 @@ jobs:
             -v ${{ github.workspace }}:/app \
             -w /app \
             semantic-release \
-            -c "npx semantic-release"
+            /bin/sh -c "npx semantic-release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

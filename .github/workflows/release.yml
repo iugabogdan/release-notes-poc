@@ -12,10 +12,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
-      - run: npm install
-      - run: npx semantic-release
+      - run: docker build -t semantic-release .
+      - run: |
+          USER_ID=$(id -u)
+          GROUP_ID=$(id -g)
+          docker run \
+            --user $USER_ID:$GROUP_ID \
+            -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
+            -v ${{ github.workspace }}:/app \
+            -w /app \
+            semantic-release \
+            /bin/sh -c "git checkout main && npx semantic-release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

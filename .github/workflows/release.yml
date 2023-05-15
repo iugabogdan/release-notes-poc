@@ -15,8 +15,8 @@ jobs:
       - run: docker build -t semantic-release .
       - run: |
           docker run \
-            --user $USER_ID:$GROUP_ID \
             -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
+            -e CI=true \
             -v ${{ github.workspace }}:/app \
             -w /app \
             semantic-release \

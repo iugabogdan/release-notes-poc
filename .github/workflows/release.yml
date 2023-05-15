@@ -1,0 +1,21 @@
+name: release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  semantic-release:
+    runs-on: ubuntu
+    name: Release
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - run: make run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_TLS_REJECT_UNAUTHORIZED: 0

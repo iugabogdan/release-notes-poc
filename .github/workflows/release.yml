@@ -14,14 +14,12 @@ jobs:
       - uses: actions/checkout@v2
       - run: docker build -t semantic-release .
       - run: |
-          USER_ID=$(id -u)
-          GROUP_ID=$(id -g)
           docker run \
             --user $USER_ID:$GROUP_ID \
             -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
             -v ${{ github.workspace }}:/app \
             -w /app \
             semantic-release \
-            /bin/sh -c "git checkout master && npx semantic-release"
+            -c "npx semantic-release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

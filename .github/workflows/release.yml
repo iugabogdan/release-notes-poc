@@ -22,4 +22,5 @@ jobs:
             -e GH_TOKEN=${{ secrets.GH_TOKEN }} \
             -v ${{ github.workspace }}:/app \
             -w /app \
-            semantic-release
+            semantic-release \
+            /bin/sh -c "git checkout master && semantic-release"

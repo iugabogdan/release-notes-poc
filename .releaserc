@@ -8,7 +8,8 @@
               {"type": "build", "release": false},
               {"type": "ci", "release": false},
               {"type": "perf", "release": "minor"},
-              {"type": "refactor", "release": "patch"}
+              {"type": "refactor", "release": "patch"},
+              {"type": "breaking", "release": "major"}
             ]
           }],
 		"@semantic-release/release-notes-generator",

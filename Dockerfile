@@ -9,7 +9,8 @@ RUN npm install -g semantic-release@19.0.5 \
     @semantic-release/release-notes-generator@10.0.3 \
     @semantic-release/changelog@6.0.2 \
     @semantic-release/github@8.0.6 \
-    @semantic-release/git@10.0.1
+    @semantic-release/git@10.0.1 \
+    semantic-release-slack-bot@4.0.0
 
 WORKDIR /app
 

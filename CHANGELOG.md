@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/iugabogdan/release-notes-poc/compare/v2.1.0...v2.2.0) (2023-05-16)
+
+
+### Performance Improvements
+
+* **TPXX:** description ([b98a90c](https://github.com/iugabogdan/release-notes-poc/commit/b98a90cdedef17f486cd8da37a70e36e671b9a9a))
+
 # [2.1.0](https://github.com/iugabogdan/release-notes-poc/compare/v2.0.0...v2.1.0) (2023-05-16)
 
 

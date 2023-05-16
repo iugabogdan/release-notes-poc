@@ -1,3 +1,10 @@
+# [5.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v4.0.0...v5.0.0) (2023-05-16)
+
+
+### Features
+
+* **TPXX:** Test new release message ([0bef906](https://github.com/iugabogdan/release-notes-poc/commit/0bef90688c52e83df7cfc6d736992538616a93ed))
+
 # [4.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v3.0.0...v4.0.0) (2023-05-16)
 
 

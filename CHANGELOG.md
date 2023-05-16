@@ -1,3 +1,10 @@
+# [11.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v10.0.0...v11.0.0) (2023-05-16)
+
+
+### Features
+
+* **TPXX:** added new message ([6dc00a8](https://github.com/iugabogdan/release-notes-poc/commit/6dc00a8620e189ec78dc869b89ef541f54d89cd9))
+
 # [10.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v9.0.0...v10.0.0) (2023-05-16)
 
 

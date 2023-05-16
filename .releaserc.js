@@ -36,7 +36,8 @@ module.exports = {
           slackWebhook: 'https://hooks.slack.com/services/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',
           markdownReleaseNotes: true,
           onSuccessTemplate: {
-            text: 'Package with version $npm_package_version of $package_name is now live on production. Below you can find the release notes.'
+            text: 'Package with version $npm_package_version of $package_name is now live on production. Below you can find the release notes. \
+            $release_notes'
           },
           branchesConfig: [
             {

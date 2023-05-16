@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/iugabogdan/release-notes-poc/compare/v2.0.0...v2.1.0) (2023-05-16)
+
+
+### Features
+
+* **TPXX:** feature ([56e8c0e](https://github.com/iugabogdan/release-notes-poc/commit/56e8c0e8e4598931e1b26f58d5d8f077eaef8a9e))
+
 # [2.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v1.0.0...v2.0.0) (2023-05-16)
 
 

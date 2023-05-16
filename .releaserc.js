@@ -7,7 +7,7 @@ module.exports = {
           preset: 'angular',
           releaseRules: [
             { type: 'feat', release: 'major' },
-            { type: 'fix', release: 'mmajor' },
+            { type: 'fix', release: 'major' },
             { type: 'perf', release: 'major' },
             { type: 'docs', release: false },
             { type: 'style', release: false },

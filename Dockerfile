@@ -1,6 +1,6 @@
 FROM node:16-slim
 
-ENV SEMANTIC_RELEASE_PACKAGE=${REPO_NAME}
+ENV SEMANTIC_RELEASE_PACKAGE=release-notes-poc
 ENV npm_config_cache=/tmp/.npm
 
 RUN apt-get update && apt-get install -y git

@@ -1,3 +1,10 @@
+# [9.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v8.0.0...v9.0.0) (2023-05-16)
+
+
+### Performance Improvements
+
+* **TPXX:** perf improvements ([5d3d24d](https://github.com/iugabogdan/release-notes-poc/commit/5d3d24d9a4edfb85fa19cd136a106609a9b24895))
+
 # [8.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v7.0.0...v8.0.0) (2023-05-16)
 
 

@@ -1,3 +1,10 @@
+# [3.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v2.3.0...v3.0.0) (2023-05-16)
+
+
+### Features
+
+* **TP555555:** major release ([46efc9e](https://github.com/iugabogdan/release-notes-poc/commit/46efc9e56060b64091add7dcba65617e9b6e9970))
+
 # [2.3.0](https://github.com/iugabogdan/release-notes-poc/compare/v2.2.1...v2.3.0) (2023-05-16)
 
 

@@ -6,12 +6,12 @@ module.exports = {
         {
           preset: 'angular',
           releaseRules: [
-            { type: 'feat', release: 'minor' },
-            { type: 'fix', release: 'patch' },
+            { type: 'feat', release: 'major' },
+            { type: 'fix', release: 'mmajor' },
+            { type: 'perf', release: 'major' },
             { type: 'docs', release: false },
             { type: 'style', release: false },
             { type: 'refactor', release: false },
-            { type: 'perf', release: 'minor' },
             { type: 'test', release: false },
             { type: 'build', release: false },
             { type: 'chore', release: false },

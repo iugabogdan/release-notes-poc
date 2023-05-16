@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/iugabogdan/release-notes-poc/compare/v2.2.0...v2.2.1) (2023-05-16)
+
+
+### Reverts
+
+* **TPXX:** revert stuff ([839eb0f](https://github.com/iugabogdan/release-notes-poc/commit/839eb0f3cbace0cece662b5690a47c3383be4d44))
+
 # [2.2.0](https://github.com/iugabogdan/release-notes-poc/compare/v2.1.0...v2.2.0) (2023-05-16)
 
 

@@ -1,3 +1,1 @@
 # release-notes-poc
-
-

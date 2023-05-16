@@ -1,3 +1,20 @@
+# [4.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v3.0.0...v4.0.0) (2023-05-16)
+
+
+### Bug Fixes
+
+* **TP999999:** this is how a bug fix will look like ([2398f72](https://github.com/iugabogdan/release-notes-poc/commit/2398f72304205a32f970bf985012e7227756a9cf))
+
+
+### Features
+
+* **TP222222:** this is how a feature will look like ([ab45bd6](https://github.com/iugabogdan/release-notes-poc/commit/ab45bd665af026b1b5f080053d0691367d33464a))
+
+
+### Performance Improvements
+
+* **TP444444:** this is how a performance improvement will look like ([ddda480](https://github.com/iugabogdan/release-notes-poc/commit/ddda4801f732b3b293bf4a4b7198691d2074cee5))
+
 # [3.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v2.3.0...v3.0.0) (2023-05-16)
 
 

@@ -1,3 +1,15 @@
+# [8.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v7.0.0...v8.0.0) (2023-05-16)
+
+
+### Features
+
+* **TPXX:** test new message ([5cbb3c2](https://github.com/iugabogdan/release-notes-poc/commit/5cbb3c2bb39f179258f626275309aea2e553930e))
+
+
+### Performance Improvements
+
+* **TPXX:** perf improvements ([0283c74](https://github.com/iugabogdan/release-notes-poc/commit/0283c744dc7ab4ec2387b5209785f95833a86c1c))
+
 # [7.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v6.0.0...v7.0.0) (2023-05-16)
 
 

@@ -5,9 +5,6 @@ module.exports = {
         '@semantic-release/commit-analyzer',
         {
           preset: 'angular',
-          parserOpts: {
-            headerPattern: /^(?::([\w-]*):)?\s*(\w*)(?:\(([^)]*|^TP\d{6}$)\))?:\s*(.*)$/,
-          },
           releaseRules: [
             { type: 'feat', release: 'minor' },
             { type: 'fix', release: 'patch' },

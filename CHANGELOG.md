@@ -1,3 +1,20 @@
+# [10.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v9.0.0...v10.0.0) (2023-05-16)
+
+
+### Bug Fixes
+
+* **TP999999:** bug fix ([4f4b268](https://github.com/iugabogdan/release-notes-poc/commit/4f4b26878390c161e513d2e5e8be7e33b8f424c8))
+
+
+### Features
+
+* **TPXX:** new feature ([8a4bfa2](https://github.com/iugabogdan/release-notes-poc/commit/8a4bfa2b48d6f90be5139a1ce3fe243121c24b4a))
+
+
+### Performance Improvements
+
+* **TPXX:** perf improvements ([2d800d8](https://github.com/iugabogdan/release-notes-poc/commit/2d800d8daf71bfbc3ffbaff04b337ce1aa9b0f06))
+
 # [9.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v8.0.0...v9.0.0) (2023-05-16)
 
 

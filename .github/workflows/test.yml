@@ -1,0 +1,11 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set output
+      id: vars
+      run: echo "::set-output name=my_output::$(date)"
+
+    - name: Use output
+      run: echo "The current date is ${{ steps.vars.outputs.my_output }}"

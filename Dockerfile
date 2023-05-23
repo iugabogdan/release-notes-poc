@@ -14,4 +14,4 @@ RUN npm install -g semantic-release@19.0.5 \
 
 WORKDIR /app
 
-COPY . .
+COPY .releaserc.js .releaserc.js

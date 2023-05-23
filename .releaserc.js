@@ -33,7 +33,7 @@ module.exports = {
         {
           notifyOnSuccess: true,
           notifyOnFail: true,
-          slackWebhook: process.env.SLACK_WEBHOOK || 'https://hooks.slack.com/services/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',
+          slackWebhook: process.env.SLACK_WEBHOOK,
           markdownReleaseNotes: true,
           onSuccessTemplate: {
             text: `Package with github tag *$npm_package_version* of *$package_name* is now live in production.\nBelow you can find the release notes.\n$release_notes`

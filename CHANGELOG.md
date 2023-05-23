@@ -1,3 +1,10 @@
+# [12.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v11.0.0...v12.0.0) (2023-05-23)
+
+
+### Features
+
+* **US987:** feature ([c702424](https://github.com/iugabogdan/release-notes-poc/commit/c702424e8b957e8ad1cb0a9544305636b6c33ef1))
+
 # [11.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v10.0.0...v11.0.0) (2023-05-16)
 
 

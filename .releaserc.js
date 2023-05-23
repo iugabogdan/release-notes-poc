@@ -1,5 +1,5 @@
 module.exports = {
-    branches: ['master'],
+    branches: [process.env.BRANCH_NAME || 'master'],
     plugins: [
       [
         '@semantic-release/commit-analyzer',
@@ -40,7 +40,7 @@ module.exports = {
           },
           branchesConfig: [
             {
-              pattern: 'master',
+              pattern: process.env.BRANCH_NAME || 'master',
               notifyOnSuccess: true,
             },
           ],

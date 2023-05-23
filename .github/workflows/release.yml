@@ -17,10 +17,11 @@ jobs:
           docker run \
             -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
             -e CI=true \
-            -e REPO_NAME=${{ github.repository }} \
             -v ${{ github.workspace }}:/app \
             -w /app \
             semantic-release \
             /bin/sh -c "npx semantic-release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          

@@ -35,9 +35,6 @@ jobs:
         @semantic-release/git@10.0.1 \
         semantic-release-slack-bot@4.0.0
 
-    - name: Copy .releaserc.js file
-      run: cp .releaserc.js .releaserc.js
-
     - name: Run Semantic Release
       run: npx semantic-release
       env:

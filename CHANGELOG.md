@@ -1,3 +1,10 @@
+# [13.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v12.0.0...v13.0.0) (2023-05-23)
+
+
+### Features
+
+* **workflow:** added env variable on slack webhook ([cd94c5b](https://github.com/iugabogdan/release-notes-poc/commit/cd94c5bd1ef4647d584265809aae90fd8ffe19e5))
+
 # [12.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v11.0.0...v12.0.0) (2023-05-23)
 
 

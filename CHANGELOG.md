@@ -1,3 +1,10 @@
+# [16.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v15.0.0...v16.0.0) (2023-05-24)
+
+
+### Features
+
+* **slack:** remove webook as env on workflow ([052f09f](https://github.com/iugabogdan/release-notes-poc/commit/052f09f328932dd79945b16ed5552a14b5ffc247))
+
 # [15.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v14.0.0...v15.0.0) (2023-05-24)
 
 

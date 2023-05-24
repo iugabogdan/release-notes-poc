@@ -1,3 +1,10 @@
+# [15.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v14.0.0...v15.0.0) (2023-05-24)
+
+
+### Features
+
+* **slack:** add secret on webhook ([597e5c5](https://github.com/iugabogdan/release-notes-poc/commit/597e5c52d6f40c0f9328acbc7d67af26976ef1b8))
+
 # [14.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v13.0.0...v14.0.0) (2023-05-23)
 
 

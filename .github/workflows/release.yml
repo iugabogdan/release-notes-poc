@@ -22,6 +22,3 @@ jobs:
             -w /app \
             semantic-release \
             /bin/sh -c "npx semantic-release"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}

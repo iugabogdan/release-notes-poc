@@ -39,4 +39,5 @@ jobs:
       run: npx semantic-release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SEMANTIC_RELEASE_PACKAGE: release-notes-poc

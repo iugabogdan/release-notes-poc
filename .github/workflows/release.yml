@@ -16,6 +16,7 @@ jobs:
       - run: |
           docker run \
             -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
+            -e SLACK_WEBHOOK=${{ secrets.SLACK_WEBHOOK }} \
             -e CI=true \
             -v ${{ github.workspace }}:/app \
             -w /app \
@@ -23,3 +24,4 @@ jobs:
             /bin/sh -c "npx semantic-release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}

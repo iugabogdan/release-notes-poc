@@ -1,3 +1,10 @@
+# [14.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v13.0.0...v14.0.0) (2023-05-23)
+
+
+### Features
+
+* **cache:** cache npm deps ([37c7480](https://github.com/iugabogdan/release-notes-poc/commit/37c74801ad34bac2ed856f7c6e7a0ec0d66dc781))
+
 # [13.0.0](https://github.com/iugabogdan/release-notes-poc/compare/v12.0.0...v13.0.0) (2023-05-23)
 
 
